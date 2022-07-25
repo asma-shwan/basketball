@@ -1,0 +1,83 @@
+body{
+    background-color: CFD2CF;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+#divgen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 2px solid white;
+    background-color:A2B5BB ;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top:0px;
+    bottom: 0px;
+    margin: auto;
+border-radius: 10px;
+}
+#div1{
+    background-color:black;
+    height: 150px;
+    width: 150px;
+    border:2px solid white;
+    border-radius: 20px;
+    color: EB1D36;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#div2{ 
+    background-color:black ;
+    height: 150px;
+    width: 150px;
+    border:2px solid white;
+    border-radius: 20px;
+    color: EB1D36;
+    font-weight: bold;
+    font-size: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#divgen1{
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#divgen2{
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+button{
+    padding: 10px;
+    background-color:CFD2CF ;
+    color: EB1D36;
+    border:1px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover{
+    background-color: A2B5BB  ;
+    padding: 12px;
+}
+p{
+    color: EB1D36;
+    font-weight: bold;
+    font-size: 30px;
+}
